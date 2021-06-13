@@ -1,0 +1,833 @@
+@prefix data: <http://example.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:mahasiswa;
+    data:nama "Sina Mustopa";
+    data:jk "Laki-laki";
+    data:npm "140810180017";
+    data:ttLahir "Bogor, 1 Februari 2000";
+    data:email "mustopa.sina@gmail.com";
+    data:alamat "Jl Bogor";
+    data:noHP "081289725836";
+    data:urlFoto "https://images.unsplash.com/photo-1606106040060-3c4322aaecda?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+
+data:2 rdf:type data:mahasiswa;
+    data:nama "Alfian Fadhil";
+    data:jk "Laki-laki";
+    data:npm "140810180055";
+    data:ttLahir "Cimahi, 11 Juni 2000";
+    data:email "alfian@gmail.com";
+    data:alamat "Jl Cimahi";
+    data:noHP "081112123499";
+    data:urlFoto "https://images.unsplash.com/photo-1612230337141-903f3d330055?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:3 rdf:type data:mahasiswa;
+    data:nama "Sheila Azhar";
+    data:jk "Perempuan";
+    data:npm "140810180001";
+    data:ttLahir "Majalengka, 24 Januari 2000";
+    data:email "sheila@gmail.com";
+    data:alamat "Jl Majalengka timur";
+    data:noHP "08111212119";
+    data:urlFoto "https://images.unsplash.com/photo-1620416127728-e8afbf96def5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:4 rdf:type data:mahasiswa;
+    data:nama "Sitti Ufairoh Azzahra";
+    data:jk "Perempuan";
+    data:npm "140810180002";
+    data:ttLahir "Purwakarta, 12 Februari 2000";
+    data:email "ufairoh@gmail.com";
+    data:alamat "Jl Purwakarta 5";
+    data:noHP "08111211234";
+    data:urlFoto "https://images.unsplash.com/photo-1612115958726-9af4b6bd28d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80";
+    .
+
+data:5 rdf:type data:mahasiswa;
+    data:nama "Fauzan Akmal Hariz";
+    data:jk "Laki-laki";
+    data:npm "140810180005";
+    data:ttLahir "Bogor, 19 Mei 2000";
+    data:email "fauzan@gmail.com";
+    data:alamat "Jl Parung";
+    data:noHP "08826284129";
+    data:urlFoto "https://images.unsplash.com/photo-1501027874987-73e9c32f46a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80";
+    .
+
+data:6 rdf:type data:mahasiswa;
+    data:nama "Anugerah Prima Bagaskara";
+    data:jk "Laki-laki";
+    data:npm "140110200005";
+    data:ttLahir "Sukabumi, 11 Mei 2002";
+    data:email "primab@gmail.com";
+    data:alamat "Jl Ciletuh";
+    data:noHP "08826284126";
+    data:urlFoto "https://images.unsplash.com/photo-1511982742164-ba5f08b0796c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80";
+    .
+
+data:7 rdf:type data:mahasiswa;
+    data:nama "Kartika Dewi";
+    data:jk "Perempuan";
+    data:npm "140110180003";
+    data:ttLahir "Jakarta, 21 Mei 2000";
+    data:email "kartika.a@gmail.com";
+    data:alamat "Jl Center Park";
+    data:noHP "08826284111";
+    data:urlFoto "https://images.unsplash.com/photo-1605677677382-8baa24578e08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80";
+    .
+
+data:8 rdf:type data:mahasiswa;
+    data:nama "Malik Fahad";
+    data:jk "Laki-laki";
+    data:npm "140110190055";
+    data:ttLahir "Solo, 25 Mei 2001";
+    data:email "malik.fah@gmail.com";
+    data:alamat "Jl Kencana";
+    data:noHP "08826284112";
+    data:urlFoto "https://images.unsplash.com/photo-1620781245642-7f5bc98987b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80";
+    .
+
+data:9 rdf:type data:mahasiswa;
+    data:nama "Kevin Yosafat";
+    data:jk "Laki-laki";
+    data:npm "140110210023";
+    data:ttLahir "Banten, 30 September 2003";
+    data:email "kevyosa@gmail.com";
+    data:alamat "Jl Bumikiara";
+    data:noHP "08826223111";
+    data:urlFoto "https://images.unsplash.com/photo-1620399909663-b7a7da934161?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:10 rdf:type data:mahasiswa;
+    data:nama "Chandra Liow";
+    data:jk "Laki-laki";
+    data:npm "140710190002";
+    data:ttLahir "Semarang, 30 Juli 2001";
+    data:email "chandral@gmail.com";
+    data:alamat "Jl kencana 4";
+    data:noHP "08826211111";
+    data:urlFoto "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80";
+    .
+
+
+
+data:11 rdf:type data:mahasiswa;
+    data:nama "Yusuf Miami";
+    data:jk "Laki-laki";
+    data:npm "140210210001";
+    data:ttLahir "Klaten, 21 Juli 2003";
+    data:email "ymiami@gmail.com";
+    data:alamat "Jl kencana 10 Klaten";
+    data:noHP "08831211111";
+    data:urlFoto "https://images.unsplash.com/photo-1620188375543-3361033394a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80";
+    .
+
+data:12 rdf:type data:mahasiswa;
+    data:nama "Shinta Cantika";
+    data:jk "Perempuan";
+    data:npm "140210210004";
+    data:ttLahir "Jakarta, 18 Juli 2003";
+    data:email "shincan@gmail.com";
+    data:alamat "Grogol Timu 64";
+    data:noHP "08831213511";
+    data:urlFoto "https://images.unsplash.com/photo-1597774293578-9acb2af2cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:13 rdf:type data:mahasiswa;
+    data:nama "Dea Dewi";
+    data:jk "Perempuan";
+    data:npm "140210180011";
+    data:ttLahir "Bandung, 17 April 2000";
+    data:email "deadewi@gmail.com";
+    data:alamat "Jl Sukarno Hatta 5";
+    data:noHP "08839013511";
+    data:urlFoto "https://images.unsplash.com/photo-1560261172-625fb59399fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:14 rdf:type data:mahasiswa;
+    data:nama "David Hutapea";
+    data:jk "Laki-laki";
+    data:npm "140210190054";
+    data:ttLahir "Medan, 17 Agustus 2001";
+    data:email "davidhut@gmail.com";
+    data:alamat "Jl Medan Panjang 11";
+    data:noHP "08839011811";
+    data:urlFoto "https://cdn.pixabay.com/photo/2019/09/21/18/25/male-4494498_1280.jpg";
+    .
+
+data:15 rdf:type data:mahasiswa;
+    data:nama "Cintya Rifka";
+    data:jk "Perempuan";
+    data:npm "140210180066";
+    data:ttLahir "Jakarta, 21 Agustus 2000";
+    data:email "cintya_r@gmail.com";
+    data:alamat "Jl Sudirman 11";
+    data:noHP "08839011801";
+    data:urlFoto "https://images.unsplash.com/photo-1561637235-895323c40053?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80";
+    .
+
+data:16 rdf:type data:mahasiswa;
+    data:nama "Hanifah Azian";
+    data:jk "Laki-laki";
+    data:npm "140310180001";
+    data:ttLahir "Depok, 18 April 2000";
+    data:email "hanizi@gmail.com";
+    data:alamat "Jl Depok baru 99";
+    data:noHP "08129014401";
+    data:urlFoto "https://images.unsplash.com/photo-1620285327296-f71539979743?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=677&q=80";
+    .
+
+data:17 rdf:type data:mahasiswa;
+    data:nama "Ni Made Cantika";
+    data:jk "Perempuan";
+    data:npm "140310180022";
+    data:ttLahir "Bali, 5 Januari 2000";
+    data:email "madecantika@gmail.com";
+    data:alamat "Jl Denpasar 18";
+    data:noHP "081290132091";
+    data:urlFoto "https://images.unsplash.com/photo-1620935900933-2aadcf017c7a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:18 rdf:type data:mahasiswa;
+    data:nama "Naufal Syauki";
+    data:jk "Laki-laki";
+    data:npm "140310190022";
+    data:ttLahir "Yogyakarta, 13 September 2001";
+    data:email "naufals@gmail.com";
+    data:alamat "Jl Kota tua 21";
+    data:noHP "081290132145";
+    data:urlFoto "https://images.unsplash.com/photo-1548611307-d1a4c28832b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=966&q=80";
+    .
+
+data:19 rdf:type data:mahasiswa;
+    data:nama "Gilbert Einstein";
+    data:jk "Laki-laki";
+    data:npm "140310190011";
+    data:ttLahir "Bantul, 23 November 2001";
+    data:email "gilberteins@gmail.com";
+    data:alamat "Jl Klaten Baru 54";
+    data:noHP "081310132145";
+    data:urlFoto "https://images.unsplash.com/photo-1619887741454-39af865fc296?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:20 rdf:type data:mahasiswa;
+    data:nama "Akbar Musa";
+    data:jk "Laki-laki";
+    data:npm "140310210046";
+    data:ttLahir "Bogor, 22 Juli 2003";
+    data:email "akbarmus@gmail.com";
+    data:alamat "Jl Cibatu Indah 88";
+    data:noHP "081310132343";
+    data:urlFoto "https://images.unsplash.com/photo-1619971066172-7a4ddeed410f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80";
+    .
+
+
+
+data:21 rdf:type data:mahasiswa;
+    data:nama "Vivian Devi";
+    data:jk "Perempuan";
+    data:npm "140310180037";
+    data:ttLahir "Bojong,  27 Desember 2000";
+    data:email "viviandevi@gmail.com";
+    data:alamat "Jl Cicurug 99";
+    data:noHP "081310137652";
+    data:urlFoto "https://images.unsplash.com/photo-1620736214028-b3bab8e20aab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+.
+
+data:22 rdf:type data:mahasiswa;
+    data:nama "Anselna Pratiwii";
+    data:jk "Perempuan";
+    data:npm "140310200057";
+    data:ttLahir "Bandung,  25 Desember 2002";
+    data:email "alselnap@gmail.com";
+    data:alamat "Jl Cikeruh 80";
+    data:noHP "08131013550";
+    data:urlFoto "https://images.unsplash.com/photo-1620915789354-8558b87424d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=630&q=80";
+    .
+
+data:23 rdf:type data:mahasiswa;
+    data:nama "Shania Sahra";
+    data:jk "Perempuan";
+    data:npm "140210190027";
+    data:ttLahir "Bojong,  27 Januari 2001";
+    data:email "sharasnhi@gmail.com";
+    data:alamat "Jl Cimanggu 91";
+    data:noHP "089310237652";
+    data:urlFoto "https://images.unsplash.com/photo-1606726712298-a9d14f8297a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80";
+    .
+
+data:24 rdf:type data:mahasiswa;
+    data:nama "Alberto Reyna";
+    data:jk "Laki-laki";
+    data:npm "140410180017";
+    data:ttLahir "Cimahi,  7 Desember 2000";
+    data:email "reynavalorant@gmail.com";
+    data:alamat "Jl gatsu 19";
+    data:noHP "08932327652";
+    data:urlFoto "https://images.unsplash.com/photo-1620001484744-0c6264a98550?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:25 rdf:type data:mahasiswa;
+    data:nama "Marvelinus";
+    data:jk "Laki-laki";
+    data:npm "140610180057";
+    data:ttLahir "Karanganyar,  27 Februari 2000";
+    data:email "marvelcpti@gmail.com";
+    data:alamat "Jl Cicurug 29";
+    data:noHP "081378937752";
+    data:urlFoto "https://images.unsplash.com/photo-1523710573464-368e67e0d62c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:26 rdf:type data:mahasiswa;
+    data:nama "Sarini Dua";
+    data:jk "Perempuan";
+    data:npm "140610200037";
+    data:ttLahir "Bojong,  25 Desember 2002";
+    data:email "miesedap2@gmail.com";
+    data:alamat "Jl Cimangu 99";
+    data:noHP "087310329152";
+    data:urlFoto "https://images.unsplash.com/photo-1586682643135-060f061868b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=620&q=80";
+.
+
+data:27 rdf:type data:mahasiswa;
+    data:nama "Sandyawan Setiadi";
+    data:jk "Laki-laki";
+    data:npm "140910180062";
+    data:ttLahir "Cimahi,  17 Desember 2000";
+    data:email "sandyawan@gmail.com";
+    data:alamat "Jl Cibeber 99";
+    data:noHP "081314231652";
+    data:urlFoto "https://images.unsplash.com/photo-1617355453845-6996ffeee4de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80";
+    .
+
+data:28 rdf:type data:mahasiswa;
+    data:nama "Sadil Ramdana";
+    data:jk "Laki-laki";
+    data:npm "141010190077";
+    data:ttLahir "Bojong,  27 Mei 2001";
+    data:email "sadilmi@gmail.com";
+    data:alamat "Jl Cicadas 99";
+    data:noHP "081310321652";
+    data:urlFoto "https://images.unsplash.com/photo-1588701107566-af76b932e2e8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:29 rdf:type data:mahasiswa;
+    data:nama "Vivian Sandra";
+    data:jk "Perempuan";
+    data:npm "140310190079";
+    data:ttLahir "Bojong,  8 Desember 2001";
+    data:email "viviansandra@gmail.com";
+    data:alamat "Jl Cibaru 9";
+    data:noHP "087317862652";
+    data:urlFoto "https://images.unsplash.com/photo-1619107822338-82d8513cd25c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:30 rdf:type data:mahasiswa;
+    data:nama "Devina Natapsya";
+    data:jk "Perempuan";
+    data:npm "140710180007";
+    data:ttLahir "Bojong,  27 Agustus 2000";
+    data:email "Devina natapsya@gmail.com";
+    data:alamat "Jl Cimareme 27";
+    data:noHP "081310187654";
+    data:urlFoto "https://images.unsplash.com/photo-1562555579-e73e8764670a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+data:31 rdf:type data:mahasiswa;
+    data:nama "Sandra Devi";
+    data:jk "Perempuan";
+    data:npm "140110190047";
+    data:ttLahir "Medan,  25 Desember 2001";
+    data:email "sandradevi@gmail.com";
+    data:alamat "Jl malangbong 29";
+    data:noHP "081376234652";
+    data:urlFoto "https://images.unsplash.com/photo-1620761927720-10a8bec41b74?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:32 rdf:type data:mahasiswa;
+    data:nama "Shadie Wijaya";
+    data:jk "Laki-laki";
+    data:npm "140110180031";
+    data:ttLahir "Jakarta,  23 Maret 2000";
+    data:email "captamerika@gmail.com";
+    data:alamat "Jl Cibubur 9";
+    data:noHP "081312123952";
+    data:urlFoto "https://images.unsplash.com/photo-1592771385918-90eeffa48baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:33 rdf:type data:mahasiswa;
+    data:nama "Nazmi Muhammad";
+    data:jk "Laki-laki";
+    data:npm "140810180037";
+    data:ttLahir "Bandung,  27 Desember 2000";
+    data:email "namuryfc@gmail.com";
+    data:alamat "Jl Cibiru 99";
+    data:noHP "087892337652";
+    data:urlFoto "https://images.unsplash.com/photo-1612214070475-1e73f478188c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80";
+    .
+
+data:34 rdf:type data:mahasiswa;
+    data:nama "Muhammad Fahrul";
+    data:jk "Laki-laki";
+    data:npm "140810180027";
+    data:ttLahir "Bandung,  27 Juli 2000";
+    data:email "fictoriajr@gmail.com";
+    data:alamat "Jl Sukamiskin 29";
+    data:noHP "087892387291";
+    data:urlFoto "https://images.unsplash.com/photo-1512850692650-c382e34f7fb2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=704&q=80";
+    .
+
+data:35 rdf:type data:mahasiswa;
+    data:nama "Adipati Maaruf";
+    data:jk "Laki-laki";
+    data:npm "140910180023";
+    data:ttLahir "Bandung,  18 Januari 2000";
+    data:email "adipatidolken@gmail.com";
+    data:alamat "Jl Cibiru 25";
+    data:noHP "087892153652";
+    data:urlFoto "https://images.unsplash.com/photo-1544159729-c9380464148c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxOXx0b3dKWkZza3BHZ3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60";
+    .
+
+data:36 rdf:type data:mahasiswa;
+    data:nama "Bandana Irmal A";
+    data:jk "Laki-laki";
+    data:npm "140810180025";
+    data:ttLahir "Cimahi,  27 September 2000";
+    data:email "biabanana@gmail.com";
+    data:alamat "Jl Permana 11";
+    data:noHP "08789113127";
+    data:urlFoto "https://images.unsplash.com/photo-1618922752011-f2eb1e8b3f20?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:37 rdf:type data:mahasiswa;
+    data:nama "Muhammad Hafidh";
+    data:jk "Laki-laki";
+    data:npm "140810180061";
+    data:ttLahir "Bogor,  27 Juli 1999";
+    data:email "akdhnand@gmail.com";
+    data:alamat "Jl bogor 9";
+    data:noHP "081242337652";
+    data:urlFoto "https://images.unsplash.com/photo-1618769122190-ee85526fd40b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80";
+    .
+
+data:38 rdf:type data:mahasiswa;
+    data:nama "Nurul Maaruf";
+    data:jk "Laki-laki";
+    data:npm "140910180053";
+    data:ttLahir "Bandung,  12 Januari 2000";
+    data:email "maarufnurul@gmail.com";
+    data:alamat "Jl Cibiru 5";
+    data:noHP "087908723652";
+    data:urlFoto "https://images.unsplash.com/photo-1588946653163-7c781a0f6702?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80";
+    .
+
+data:39 rdf:type data:mahasiswa;
+    data:nama "Ariful Nopal";
+    data:jk "Laki-laki";
+    data:npm "140110190055";
+    data:ttLahir "Depok,  11 Januari 2000";
+    data:email "nopalariful@gmail.com";
+    data:alamat "Jl Cilegon 15";
+    data:noHP "087898736652";
+    data:urlFoto "https://images.unsplash.com/photo-1542973748-658653fb3d12?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80";
+    .
+
+data:40 rdf:type data:mahasiswa;
+    data:nama "Ajani Rapia";
+    data:jk "Perempuan";
+    data:npm "140910190053";
+    data:ttLahir "Bandung,  1 November 2001";
+    data:email "adipatidolken@gmail.com";
+    data:alamat "Jl Cimareme 2";
+    data:noHP "087892212472";
+    data:urlFoto "https://images.unsplash.com/photo-1616902599633-ebde6959ad85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80";
+    .
+
+data:41 rdf:type data:mahasiswa;
+    data:nama "Cika Hadinia";
+    data:jk "Perempuan";
+    data:npm "140810190009";
+    data:ttLahir "Sleman,  17 November 2001";
+    data:email "cikah@gmail.com";
+    data:alamat "Jl Keraton Sleman 2";
+    data:noHP "087892232472";
+    data:urlFoto "https://jooinn.com/images/portrait-112.jpg";
+    .
+
+data:42 rdf:type data:mahasiswa;
+    data:nama "Stefi Sesilia";
+    data:jk "Perempuan";
+    data:npm "140810200021";
+    data:ttLahir "Gorontalo,  21 November 2002";
+    data:email "stefisesil@gmail.com";
+    data:alamat "Jl Keraton Sleman 2";
+    data:noHP "081292232472";
+    data:urlFoto "https://img.freepik.com/free-photo/friendly-smiling-woman-looking-pleased-front_176420-20779.jpg?size=626&ext=jpg";
+    .
+
+data:43 rdf:type data:mahasiswa;
+    data:nama "Annisa Azizah";
+    data:jk "Perempuan";
+    data:npm "140410190024";
+    data:ttLahir "Surabaya,  21 Juli 2001";
+    data:email "annisaa@gmail.com";
+    data:alamat "Jl Surabaya Terusan 2";
+    data:noHP "081192432372";
+    data:urlFoto "https://images.unsplash.com/flagged/photo-1577614742608-393919945ee2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGhpamFifGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80";
+    .
+
+data:44 rdf:type data:mahasiswa;
+    data:nama "Toni Antonio";
+    data:jk "Laki-laki";
+    data:npm "140410200001";
+    data:ttLahir "Yogyakarta,  1 Juli 2002";
+    data:email "tonian@gmail.com";
+    data:alamat "Jl Yogyakarta Timur 45";
+    data:noHP "081192432333";
+    data:urlFoto "https://1lew0t3jxhxn3k351t46x56z-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/portrait-photography-1024x701.jpg";
+    .
+
+data:45 rdf:type data:mahasiswa;
+    data:nama "Andreas Luckito";
+    data:jk "Laki-laki";
+    data:npm "140710200011";
+    data:ttLahir "Bogor, 20 Juli 2002";
+    data:email "andreasluck@gmail.com";
+    data:alamat "Jl Tutup Topi 4";
+    data:noHP "08826219865";
+    data:urlFoto "https://2d3z3x4e2xrx130kvm2hxdsp-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/Tracy_Wright_Corvo_Photography_branding_portrait-1-4.jpg";
+    .
+
+data:46 rdf:type data:mahasiswa;
+    data:nama "Marvin Luis";
+    data:jk "Laki-laki";
+    data:npm "141010180017";
+    data:ttLahir "Jakarta, 1 Juli 2000";
+    data:email "marvin@gmail.com";
+    data:alamat "Jl Buka Topi 4";
+    data:noHP "08826219811";
+    data:urlFoto "https://pro.europeana.eu/thumbs/450x450c/zoho_images/1482250000003906319.png";
+    .
+
+data:47 rdf:type data:mahasiswa;
+    data:nama "Indriana Indah Setiawati";
+    data:jk "Perempuan";
+    data:npm "141010200054";
+    data:ttLahir "Jakarta, 4 Jui 2002";
+    data:email "indriin@gmail.com";
+    data:alamat "Jl Cendana 4";
+    data:noHP "08966219811";
+    data:urlFoto "https://cdnpt01.viewbug.com/media/mediafiles/2015/04/04/51322801_medium.jpg";
+    .
+
+data:48 rdf:type data:mahasiswa;
+    data:nama "Cut Ceria Stefi";
+    data:jk "Perempuan";
+    data:npm "141010210054";
+    data:ttLahir "Bandung, 4 Jui 2003";
+    data:email "cutceria@gmail.com";
+    data:alamat "Jl Jalan Putra";
+    data:noHP "08126219811";
+    data:urlFoto "https://images.pexels.com/photos/3226462/pexels-photo-3226462.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+    .
+
+data:49 rdf:type data:mahasiswa;
+    data:nama "Denia Andini";
+    data:jk "Perempuan";
+    data:npm "140910200018";
+    data:ttLahir "Bandung, 11 November 2002";
+    data:email "daniaan@gmail.com";
+    data:alamat "Jl Cikeruh 2";
+    data:noHP "081192212472";
+    data:urlFoto "https://i.pinimg.com/originals/8b/2f/09/8b2f09d63dc16fb80d4f16bd5045f522.jpg";
+    .
+
+data:50 rdf:type data:mahasiswa;
+    data:nama "Lukmanto Alfian";
+    data:jk "Laki-laki";
+    data:npm "140610190027";
+    data:ttLahir "Bumita,  17 Februari 2001";
+    data:email "Lukmanto@gmail.com";
+    data:alamat "Jl Kiara Payung 29";
+    data:noHP "081178934452";
+    data:urlFoto "https://haircutinspiration.com/wp-content/uploads/Teen-Boy-Haircuts-1-1-.jpg";
+    .
+
+data:prodi1 rdf:type data:prodi;
+data:prodiName "Matematika" .
+data:prodi2 rdf:type data:prodi;
+data:prodiName "Kimia" .
+data:prodi3 rdf:type data:prodi;
+data:prodiName "Fisika" .
+data:prodi4 rdf:type data:prodi;
+data:prodiName "Biologi" .
+data:prodi5 rdf:type data:prodi;
+data:prodiName "Statistika" .
+data:prodi6 rdf:type data:prodi;
+data:prodiName "Geofisika" .
+data:prodi7 rdf:type data:prodi;
+data:prodiName "Teknik Informatika" .
+data:prodi8 rdf:type data:prodi;
+data:prodiName "Teknik Elektro" .
+data:prodi9 rdf:type data:prodi;
+data:prodiName "Aktuaria" .
+
+data:1 data:onProdi data:prodi7 .
+data:2 data:onProdi data:prodi7 .
+data:3 data:onProdi data:prodi7 .
+data:4 data:onProdi data:prodi7 .
+data:5 data:onProdi data:prodi7 .
+data:6 data:onProdi data:prodi1 .
+data:7 data:onProdi data:prodi1 .
+data:8 data:onProdi data:prodi1 .
+data:9 data:onProdi data:prodi1 .
+data:10 data:onProdi data:prodi6 .
+data:11 data:onProdi data:prodi2 .
+data:12 data:onProdi data:prodi2 .
+data:13 data:onProdi data:prodi2 .
+data:14 data:onProdi data:prodi2 .
+data:15 data:onProdi data:prodi2 .
+data:16 data:onProdi data:prodi3 .
+data:17 data:onProdi data:prodi3 .
+data:18 data:onProdi data:prodi3 .
+data:19 data:onProdi data:prodi3 .
+data:20 data:onProdi data:prodi3 .
+data:21 data:onProdi data:prodi3 .
+data:22 data:onProdi data:prodi3 .
+data:23 data:onProdi data:prodi2 .
+data:24 data:onProdi data:prodi4 .
+data:25 data:onProdi data:prodi5 .
+data:26 data:onProdi data:prodi5 .
+data:27 data:onProdi data:prodi8 .
+data:28 data:onProdi data:prodi9 .
+data:29 data:onProdi data:prodi3 .
+data:30 data:onProdi data:prodi6 .
+data:31 data:onProdi data:prodi1 .
+data:32 data:onProdi data:prodi1 .
+data:33 data:onProdi data:prodi7 .
+data:34 data:onProdi data:prodi7 .
+data:35 data:onProdi data:prodi8 .
+data:36 data:onProdi data:prodi7 .
+data:37 data:onProdi data:prodi7 .
+data:38 data:onProdi data:prodi8 .
+data:39 data:onProdi data:prodi1 .
+data:40 data:onProdi data:prodi8 .
+data:41 data:onProdi data:prodi7 .
+data:42 data:onProdi data:prodi7 .
+data:43 data:onProdi data:prodi4 .
+data:44 data:onProdi data:prodi4 .
+data:45 data:onProdi data:prodi6 .
+data:46 data:onProdi data:prodi9 .
+data:47 data:onProdi data:prodi9 .
+data:48 data:onProdi data:prodi9 .
+data:49 data:onProdi data:prodi8 .
+data:50 data:onProdi data:prodi5 .
+
+data:angkatan1 rdf:type data:angkatan;
+data:angkatanName "2018" .
+data:angkatan2 rdf:type data:angkatan;
+data:angkatanName "2019" .
+data:angkatan3 rdf:type data:angkatan;
+data:angkatanName "2020" .
+data:angkatan4 rdf:type data:angkatan;
+data:angkatanName "2021" .
+
+data:1 data:onAngkatan data:angkatan1 .
+data:2 data:onAngkatan data:angkatan1 .
+data:3 data:onAngkatan data:angkatan1 .
+data:4 data:onAngkatan data:angkatan1 .
+data:5 data:onAngkatan data:angkatan1 .
+data:6 data:onAngkatan data:angkatan3 .
+data:7 data:onAngkatan data:angkatan1 .
+data:8 data:onAngkatan data:angkatan2 .
+data:9 data:onAngkatan data:angkatan4 .
+data:10 data:onAngkatan data:angkatan2 .
+data:11 data:onAngkatan data:angkatan4 .
+data:12 data:onAngkatan data:angkatan4 .
+data:13 data:onAngkatan data:angkatan1 .
+data:14 data:onAngkatan data:angkatan2 .
+data:15 data:onAngkatan data:angkatan1 .
+data:16 data:onAngkatan data:angkatan1 .
+data:17 data:onAngkatan data:angkatan1 .
+data:18 data:onAngkatan data:angkatan2 .
+data:19 data:onAngkatan data:angkatan2 .
+data:20 data:onAngkatan data:angkatan4 .
+data:21 data:onAngkatan data:angkatan1 .
+data:22 data:onAngkatan data:angkatan3 .
+data:23 data:onAngkatan data:angkatan2 .
+data:24 data:onAngkatan data:angkatan1 .
+data:25 data:onAngkatan data:angkatan1 .
+data:26 data:onAngkatan data:angkatan3 .
+data:27 data:onAngkatan data:angkatan1 .
+data:28 data:onAngkatan data:angkatan2 .
+data:29 data:onAngkatan data:angkatan2 .
+data:30 data:onAngkatan data:angkatan1 .
+data:31 data:onAngkatan data:angkatan2 .
+data:32 data:onAngkatan data:angkatan1 .
+data:33 data:onAngkatan data:angkatan1 .
+data:34 data:onAngkatan data:angkatan1 .
+data:35 data:onAngkatan data:angkatan1 .
+data:36 data:onAngkatan data:angkatan1 .
+data:37 data:onAngkatan data:angkatan1 .
+data:38 data:onAngkatan data:angkatan1 .
+data:39 data:onAngkatan data:angkatan2 .
+data:40 data:onAngkatan data:angkatan2 .
+data:41 data:onAngkatan data:angkatan2 .
+data:42 data:onAngkatan data:angkatan3 .
+data:43 data:onAngkatan data:angkatan2 .
+data:44 data:onAngkatan data:angkatan3 .
+data:45 data:onAngkatan data:angkatan3 .
+data:46 data:onAngkatan data:angkatan1 .
+data:47 data:onAngkatan data:angkatan3 .
+data:48 data:onAngkatan data:angkatan4 .
+data:49 data:onAngkatan data:angkatan3 .
+data:50 data:onAngkatan data:angkatan2 .
+
+data:keahlian1 rdf:type data:keahlian;
+data:keahlianName "KBM Matematika Murni" .
+data:keahlian2 rdf:type data:keahlian;
+data:keahlianName "KBM Matematika Terapan" .
+data:keahlian3 rdf:type data:keahlian;
+data:keahlianName "Kimia Organik" .
+data:keahlian4 rdf:type data:keahlian;
+data:keahlianName "Kimia Anorganik" .
+data:keahlian5 rdf:type data:keahlian;
+data:keahlianName "Fisika Material" .
+data:keahlian6 rdf:type data:keahlian;
+data:keahlianName "Fisika Instrumentasi Elektronika" .
+data:keahlian7 rdf:type data:keahlian;
+data:keahlianName "Bioteknologi Hewan dan Tumbuhan" .
+data:keahlian8 rdf:type data:keahlian;
+data:keahlianName "Biosistematika dan Konservasi" .
+data:keahlian9 rdf:type data:keahlian;
+data:keahlianName "Statistika Pemerintahan" .
+data:keahlian10 rdf:type data:keahlian;
+data:keahlianName "Statistika Ekonomi, Bisnis dan Industri" .
+data:keahlian11 rdf:type data:keahlian;
+data:keahlianName "Geofisika Minyak" .
+data:keahlian12 rdf:type data:keahlian;
+data:keahlianName "Geofisika Gas Bumi" .
+data:keahlian13 rdf:type data:keahlian;
+data:keahlianName "Sistem Informasi" .
+data:keahlian14 rdf:type data:keahlian;
+data:keahlianName "Artificial Intelligence" .
+data:keahlian15 rdf:type data:keahlian;
+data:keahlianName "Jaringan Komputer" .
+data:keahlian16 rdf:type data:keahlian;
+data:keahlianName "Teknik Tenaga Listrik" .
+data:keahlian17 rdf:type data:keahlian;
+data:keahlianName "Teknik Elektronika" .
+data:keahlian18 rdf:type data:keahlian;
+data:keahlianName "Matematika Aktuaria" .
+data:keahlian19 rdf:type data:keahlian;
+data:keahlianName "Matematika Bisnis" .
+
+data:1 data:onKeahlian data:keahlian14 .
+data:2 data:onKeahlian data:keahlian15 .
+data:3 data:onKeahlian data:keahlian13 .
+data:4 data:onKeahlian data:keahlian14 .
+data:5 data:onKeahlian data:keahlian15 .
+data:6 data:onKeahlian data:keahlian1 .
+data:7 data:onKeahlian data:keahlian2 .
+data:8 data:onKeahlian data:keahlian1 .
+data:9 data:onKeahlian data:keahlian2 .
+data:10 data:onKeahlian data:keahlian11 .
+data:11 data:onKeahlian data:keahlian3 .
+data:12 data:onKeahlian data:keahlian4 .
+data:13 data:onKeahlian data:keahlian4 .
+data:14 data:onKeahlian data:keahlian3 .
+data:15 data:onKeahlian data:keahlian3 .
+data:16 data:onKeahlian data:keahlian5 .
+data:17 data:onKeahlian data:keahlian6 .
+data:18 data:onKeahlian data:keahlian5 .
+data:19 data:onKeahlian data:keahlian5 .
+data:20 data:onKeahlian data:keahlian6 .
+data:21 data:onKeahlian data:keahlian5 .
+data:22 data:onKeahlian data:keahlian6 .
+data:23 data:onKeahlian data:keahlian3 .
+data:24 data:onKeahlian data:keahlian7 .
+data:25 data:onKeahlian data:keahlian9 .
+data:26 data:onKeahlian data:keahlian10 .
+data:27 data:onKeahlian data:keahlian16 .
+data:28 data:onKeahlian data:keahlian18 .
+data:29 data:onKeahlian data:keahlian5 .
+data:30 data:onKeahlian data:keahlian12 .
+data:31 data:onKeahlian data:keahlian1 .
+data:32 data:onKeahlian data:keahlian1 .
+data:33 data:onKeahlian data:keahlian13 .
+data:34 data:onKeahlian data:keahlian14 .
+data:35 data:onKeahlian data:keahlian17 .
+data:36 data:onKeahlian data:keahlian15 .
+data:37 data:onKeahlian data:keahlian14 .
+data:38 data:onKeahlian data:keahlian16 .
+data:39 data:onKeahlian data:keahlian2 .
+data:40 data:onKeahlian data:keahlian17 .
+data:41 data:onKeahlian data:keahlian15 .
+data:42 data:onKeahlian data:keahlian13 .
+data:43 data:onKeahlian data:keahlian7 .
+data:44 data:onKeahlian data:keahlian8 .
+data:45 data:onKeahlian data:keahlian12 .
+data:46 data:onKeahlian data:keahlian19 .
+data:47 data:onKeahlian data:keahlian19 .
+data:48 data:onKeahlian data:keahlian19 .
+data:49 data:onKeahlian data:keahlian17 .
+data:50 data:onKeahlian data:keahlian10 .
+
+data:agama1 rdf:type data:agama;
+data:agamaName "Islam" .
+data:agama2 rdf:type data:agama;
+data:agamaName "Kristen" .
+data:agama3 rdf:type data:agama;
+data:agamaName "Hindu" .
+
+data:1 data:onAgama data:agama1 .
+data:2 data:onAgama data:agama1 .
+data:3 data:onAgama data:agama1 .
+data:4 data:onAgama data:agama1 .
+data:5 data:onAgama data:agama1 .
+data:6 data:onAgama data:agama1 .
+data:7 data:onAgama data:agama1 .
+data:8 data:onAgama data:agama1 .
+data:9 data:onAgama data:agama2 .
+data:10 data:onAgama data:agama2 .
+data:11 data:onAgama data:agama1 .
+data:12 data:onAgama data:agama1 .
+data:13 data:onAgama data:agama1 .
+data:14 data:onAgama data:agama2 .
+data:15 data:onAgama data:agama1 .
+data:16 data:onAgama data:agama1 .
+data:17 data:onAgama data:agama3 .
+data:18 data:onAgama data:agama1 .
+data:19 data:onAgama data:agama2 .
+data:20 data:onAgama data:agama1 .
+data:21 data:onAgama data:agama1 .
+data:22 data:onAgama data:agama1 .
+data:23 data:onAgama data:agama1 .
+data:24 data:onAgama data:agama1 .
+data:25 data:onAgama data:agama2 .
+data:26 data:onAgama data:agama1 .
+data:27 data:onAgama data:agama1 .
+data:28 data:onAgama data:agama1 .
+data:29 data:onAgama data:agama1 .
+data:30 data:onAgama data:agama1 .
+data:31 data:onAgama data:agama1 .
+data:32 data:onAgama data:agama1 .
+data:33 data:onAgama data:agama1 .
+data:34 data:onAgama data:agama1 .
+data:35 data:onAgama data:agama1 .
+data:36 data:onAgama data:agama1 .
+data:37 data:onAgama data:agama1 .
+data:38 data:onAgama data:agama1 .
+data:39 data:onAgama data:agama1 .
+data:40 data:onAgama data:agama1 .
+data:41 data:onAgama data:agama1 .
+data:42 data:onAgama data:agama2 .
+data:43 data:onAgama data:agama1 .
+data:44 data:onAgama data:agama2 .
+data:45 data:onAgama data:agama2 .
+data:46 data:onAgama data:agama2 .
+data:47 data:onAgama data:agama1 .
+data:48 data:onAgama data:agama1 .
+data:49 data:onAgama data:agama1 .
+data:50 data:onAgama data:agama1 .
